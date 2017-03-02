@@ -4,3 +4,9 @@
   	color: $color;
 }
 
+@mixin img-format($posicion, $repetido, $estado){
+	background-color: #444;
+	background-position: $posicion;
+	background-attachment: $estado;
+	background-repeat: $repetido;
+}
