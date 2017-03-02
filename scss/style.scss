@@ -269,7 +269,8 @@ header .intro-text {
 #restaurant-menu {
   padding: 0 0 60px 0;
   .section-title {
-    background: #444 url(../img/menu-bg.jpg) center center no-repeat fixed;
+      @include img-format('center center','no-repeat','fixed');
+    background-image: url(../img/menu-bg.jpg);
     background-size: cover;
     h2 {
       color: #fff;
@@ -331,15 +332,18 @@ header .intro-text {
 }
 
 .cambiaFondoReservas {
-  background: #444 url(../img/gallery-bg.jpg) center center no-repeat fixed;
+    @include img-format('center center','no-repeat','fixed');
+  background-image: url(../img/gallery-bg.jpg);
 }
 
 .cambiaFondoGaleria {
-  background: #444 url(../img/galeria.jpg) center center no-repeat fixed;
+     @include img-format('center center','no-repeat','fixed');
+  background-image: url(../img/galeria.jpg);
 }
 
 .cambiaFondoContacto {
-  background: #444 url(../img/contact.png) center center no-repeat fixed;
+     @include img-format('center center','no-repeat','fixed');
+  background-image: url(../img/contact.png);
 }
 
 #portfolio .section-title h2 {
