@@ -117,17 +117,13 @@ a:focus {
     border-color: rgba(231, 231, 231, 0);
   }
   a.navbar-brand {
+    @include h-size(700,36px,#8eb640);
     font-family: 'Dancing Script', cursive;
-    font-size: 36px;
-    color: #8eb640;
-    font-weight: 700;
     letter-spacing: 1px;
   }
   &.navbar-default .navbar-nav > li > a {
+    @include h-size(500,15px,#ddd);
     text-transform: uppercase;
-    color: #ddd;
-    font-weight: 500;
-    font-size: 15px;
     padding: 5px 0;
     border: 2px solid transparent;
     letter-spacing: 0.5px;
@@ -184,14 +180,12 @@ a:focus {
 }
 
 .btn-custom {
+  @include h-size(500,16px,#fff);
   text-transform: uppercase;
-  color: #fff;
   background-color: #72a411;
   border: 0;
   padding: 14px 20px;
   margin: 0;
-  font-size: 16px;
-  font-weight: 500;
   letter-spacing: 0.5px;
   border-radius: 0;
   margin-top: 20px;
@@ -218,10 +212,8 @@ a:focus {
     background: rgba(0, 0, 0, 0.4);
   }
   h1 {
+    @include h-size(700,10em,#fff);
     font-family: 'Dancing Script', cursive;
-    color: #fff;
-    font-size: 10em;
-    font-weight: 700;
     margin-top: 0;
     margin-bottom: 10px;
   }
@@ -230,9 +222,7 @@ a:focus {
     font-weight: 600;
   }
   p {
-    color: #fff;
-    font-size: 32px;
-    font-weight: 300;
+    @include h-size(300,32px,#fff);
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -300,10 +290,8 @@ header .intro-text {
     margin: 0 20px 80px;
   }
   .menu-section-title {
-    font-size: 26px;
+    @include h-size(500,26px,#444);
     display: block;
-    font-weight: 500;
-    color: #444;
     margin: 20px 0;
     text-align: center;
   }
@@ -312,9 +300,7 @@ header .intro-text {
     font-size: 18px;
   }
   .menu-item-name {
-    font-weight: 600;
-    font-size: 17px;
-    color: #555;
+    @include h-size(600,17px,#555);
     border-bottom: 2px dotted rgb(213, 213, 213);
   }
   .menu-item-description {
@@ -374,9 +360,7 @@ ol.type li {
   margin: 0 10px;
   padding: 20px 0;
   a {
-    color: #999;
-    font-weight: 500;
-    font-size: 14px;
+    @include h-size(500,14px,#999);
     padding: 12px 24px;
     background: #eee;
     border: 0;
@@ -463,14 +447,12 @@ ol.type li {
     opacity: 0;
     transition: all 0.5s;
     > h4 {
+      @include h-size(500,17px,#fff);
       opacity: 0;
-      color: #fff;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
       transition: all 0.3s;
-      font-size: 17px;
       letter-spacing: 0.5px;
-      font-weight: 500;
     }
   }
   &:hover .hover-text {
@@ -501,9 +483,7 @@ ol.type li {
     background: #fff;
   }
   h3 {
-    color: #fff;
-    font-weight: 400;
-    font-size: 20px;
+    @include h-size(400,20px,#fff);
     margin: 5px 0;
   }
   img {
@@ -567,9 +547,7 @@ ol.type li {
     background: #fff;
   }
   h3 {
-    color: #fff;
-    font-weight: 500;
-    font-size: 20px;
+    @include h-size(500,20px,#fff);
     margin: 5px 0;
   }
 }
@@ -586,10 +564,8 @@ ol.type li {
     padding: 0;
   }
   h3 {
+    @include h-size(400,20px,#555);
     text-transform: uppercase;
-    font-size: 20px;
-    font-weight: 400;
-    color: #555;
   }
   .text-danger {
     color: #cc0033;
@@ -654,9 +630,7 @@ label {
   background: #262626;
   padding: 50px 0 0 0;
   h3 {
-    color: #8eb640;
-    font-weight: 400;
-    font-size: 18px;
+    @include h-size(400,18px,#8eb640);
     text-transform: uppercase;
     margin-bottom: 20px;
   }
