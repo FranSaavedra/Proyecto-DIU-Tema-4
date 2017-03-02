@@ -76,14 +76,13 @@ ul, ol {
 }
 
 hr {
+  @include margin-default(0,0);
   height: 2px;
   width: 70px;
   text-align: center;
   position: relative;
   background: #8eb640;
-  margin: 0;
   margin-bottom: 40px;
-  border: 0;
 }
 
 .btn {
@@ -123,11 +122,10 @@ a:focus {
   }
   &.navbar-default .navbar-nav > li > a {
     @include font-style(500,15px,#ddd);
+    @include margin-default(10px 15px 0 15px,2px solid transparent);
     text-transform: uppercase;
     padding: 5px 0;
-    border: 2px solid transparent;
     letter-spacing: 0.5px;
-    margin: 10px 15px 0 15px;
     &:hover {
       color: #8eb640;
     }
@@ -181,11 +179,10 @@ a:focus {
 
 .btn-custom {
   @include font-style(500,16px,#fff);
+  @include margin-default(0,0);
   text-transform: uppercase;
   background-color: #72a411;
-  border: 0;
   padding: 14px 20px;
-  margin: 0;
   letter-spacing: 0.5px;
   border-radius: 0;
   margin-top: 20px;
@@ -248,14 +245,7 @@ header .intro-text {
     display: inline-block;
     position: relative;
     &:before {
-      display: block;
-      content: '';
-      position: absolute;
-      top: 8px;
-      right: 8px;
-      bottom: 8px;
-      left: 8px;
-      border: 1px solid rgba(255, 255, 255, 0.5);
+      @include position('',block,absolute,8px,8px,8px,8px,1px solid rgba(255, 255, 255, 0.5));
     }
   }
   p {
@@ -422,14 +412,7 @@ ol.type li {
     overflow: hidden;
     position: relative;
     &:before {
-      display: block;
-      content: '';
-      position: absolute;
-      top: 6px;
-      right: 6px;
-      bottom: 6px;
-      left: 6px;
-      border: 1px solid rgba(255, 255, 255, 0.6);
+      @include position('',block,absolute,6px,6px,6px,6px,1px solid rgba(255, 255, 255, 0.6));
     }
   }
 }
@@ -496,14 +479,7 @@ ol.type li {
       display: inline-block;
       position: relative;
       &:before {
-        display: block;
-        content: '';
-        position: absolute;
-        top: 8px;
-        right: 8px;
-        bottom: 8px;
-        left: 8px;
-        border: 1px solid rgba(255, 255, 255, 0.2);
+        @include position('',block,absolute,8px,8px,8px,8px,1px solid rgba(255, 255, 255, 0.2));
       }
     }
     .caption {
