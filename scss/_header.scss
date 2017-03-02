@@ -1,0 +1,36 @@
+/* Header Section */
+
+.intro {
+  @include background-padding(0,url(../img/intro-bg.jpg) no-repeat center center);
+  display: table;
+  width: 100%;
+  background-color: #e5e5e5;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  .overlay {
+    background: rgba(0, 0, 0, 0.4);
+  }
+  h1 {
+    @include font-style(700,10em,#fff);
+    font-family: 'Dancing Script', cursive;
+    margin-top: 0;
+    margin-bottom: 10px;
+  }
+  span {
+    color: #a7c44c;
+    font-weight: 600;
+  }
+  p {
+    @include font-style(300,32px,#fff);
+    margin-top: 10px;
+    margin-bottom: 40px;
+  }
+}
+
+header .intro-text {
+  padding-top: 250px;
+  padding-bottom: 200px;
+  text-align: center;
+}

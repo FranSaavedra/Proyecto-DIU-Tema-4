@@ -1,0 +1,83 @@
+/* Navigation */
+
+#menu {
+  padding: 20px;
+  transition: all 0.8s;
+  &.navbar-default {
+    background-color: rgba(248, 248, 248, 0);
+    border-color: rgba(231, 231, 231, 0);
+  }
+  a.navbar-brand {
+    @include font-style(700,36px,#8eb640);
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 1px;
+  }
+  &.navbar-default .navbar-nav > li > a {
+    @include font-style(500,15px,#ddd);
+    @include margin-default(10px 15px 0 15px,2px solid transparent);
+    @include letter-padding(5px 0,0.5px);
+    text-transform: uppercase;
+    &:hover {
+      color: #8eb640;
+    }
+  }
+}
+
+.on {
+  background-color: #262626 !important;
+  padding: 0 !important;
+  padding: 10px 0 !important;
+}
+
+.navbar-default .navbar-nav > .active > a {
+  color: #8eb640 !important;
+  background-color: transparent;
+  &:hover, &:focus {
+    color: #8eb640 !important;
+    background-color: transparent;
+  }
+}
+
+.navbar-toggle {
+  border-radius: 0;
+}
+
+.navbar-default .navbar-toggle {
+  &:hover, &:focus {
+    background-color: #8eb640;
+    border-color: #8eb640;
+  }
+  &:hover > .icon-bar {
+    background-color: #FFF;
+  }
+}
+
+.section-title {
+  margin-bottom: 70px;
+  .overlay {
+    @include background-padding(80px 0,rgba(0, 0, 0, 0.7));
+  }
+  p {
+    font-size: 22px;
+    color: rgba(255, 255, 255, 0.8);
+  }
+  hr {
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+}
+
+.btn-custom {
+  @include font-style(500,16px,#fff);
+  @include margin-default(0,0);
+  @include letter-padding(14px 20px,0.5px);
+  text-transform: uppercase;
+  background-color: #72a411;
+  border-radius: 0;
+  margin-top: 20px;
+  transition: all 0.5s;
+  &:hover, &:focus, &.focus, &:active, &.active {
+    color: #fff;
+    background-color: #628d0f;
+  }
+}

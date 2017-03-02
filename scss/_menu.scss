@@ -1,0 +1,51 @@
+/* Menu Section */
+
+#restaurant-menu {
+  padding: 0 0 60px 0;
+  .section-title {
+      @include img-format('center center','no-repeat','fixed');
+    background-image: url(../img/menu-bg.jpg);
+    background-size: cover;
+    h2 {
+      color: #fff;
+    }
+  }
+  img {
+    width: 300px;
+    box-shadow: 15px 0 #a7c44c;
+  }
+  h3 {
+    padding: 10px 0;
+    text-transform: uppercase;
+  }
+  .menu-section {
+    hr {
+      margin: 0 auto;
+    }
+    margin: 0 20px 80px;
+  }
+  .menu-section-title {
+    @include font-style(500,26px,#444);
+    display: block;
+    margin: 20px 0;
+    text-align: center;
+  }
+  .menu-item {
+    margin: 35px 0;
+    font-size: 18px;
+  }
+  .menu-item-name {
+    @include font-style(600,17px,#555);
+    border-bottom: 2px dotted rgb(213, 213, 213);
+  }
+  .menu-item-description {
+    font-style: italic;
+    font-size: 15px;
+  }
+  .menu-item-price {
+    float: right;
+    font-weight: 600;
+    color: #555;
+    margin-top: -26px;
+  }
+}

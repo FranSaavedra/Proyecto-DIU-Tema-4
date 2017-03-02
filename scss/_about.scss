@@ -1,0 +1,22 @@
+/* About Section */
+
+#about {
+  padding: 120px 0;
+  h3 {
+    font-size: 20px;
+  }
+  .about-text {
+    margin-left: 10px;
+  }
+  .about-img {
+    display: inline-block;
+    position: relative;
+    &:before {
+      @include position('',block,absolute,8px,8px,8px,8px,1px solid rgba(255, 255, 255, 0.5));
+    }
+  }
+  p {
+    line-height: 24px;
+    margin: 15px 0 30px;
+  }
+}
