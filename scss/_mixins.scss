@@ -4,18 +4,3 @@
   	color: $color;
 }
 
-@mixin margin-default($margin, $border) {
-	margin: $margin;
-	border: $border;
-}
-
-@mixin position($content,$display,$position,$top,$right,$bottom,$left,$border) {
-    content: $content;
-    display: $display;
-	position: $position;
-	top: $top;
-	right: $right;
-	bottom: $bottom;
-	left: $left;
-	border: $border;
-}
