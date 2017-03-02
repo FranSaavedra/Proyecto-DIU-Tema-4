@@ -123,9 +123,8 @@ a:focus {
   &.navbar-default .navbar-nav > li > a {
     @include font-style(500,15px,#ddd);
     @include margin-default(10px 15px 0 15px,2px solid transparent);
+    @include letter-padding(5px 0,0.5px);
     text-transform: uppercase;
-    padding: 5px 0;
-    letter-spacing: 0.5px;
     &:hover {
       color: #8eb640;
     }
@@ -179,10 +178,9 @@ a:focus {
 .btn-custom {
   @include font-style(500,16px,#fff);
   @include margin-default(0,0);
+  @include letter-padding(14px 20px,0.5px);
   text-transform: uppercase;
   background-color: #72a411;
-  padding: 14px 20px;
-  letter-spacing: 0.5px;
   border-radius: 0;
   margin-top: 20px;
   transition: all 0.5s;
