@@ -9,24 +9,18 @@ body, html {
 }
 
 h2 {
+  @include h-size(500,34px,#333);
   margin: 0 0 20px 0;
-  font-weight: 500;
-  font-size: 34px;
-  color: #333;
   text-transform: uppercase;
 }
 
 h3 {
-  font-size: 22px;
-  font-weight: 500;
-  color: #333;
+  @include h-size(500,22px,#333);
 }
 
 h4 {
-  font-size: 24px;
+  @include h-size(400,24px,#333);
   text-transform: uppercase;
-  font-weight: 400;
-  color: #333;
 }
 
 h5 {
