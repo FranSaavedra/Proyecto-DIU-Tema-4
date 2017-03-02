@@ -26,3 +26,9 @@
 	left: $left;
 	border: $border;
 }
+
+@mixin background-padding($padding, $background) {
+	padding: $padding;
+	background: $background;
+}
+

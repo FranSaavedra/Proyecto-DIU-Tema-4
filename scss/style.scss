@@ -164,8 +164,7 @@ a:focus {
 .section-title {
   margin-bottom: 70px;
   .overlay {
-    padding: 80px 0;
-    background: rgba(0, 0, 0, 0.7);
+    @include background-padding(80px 0,rgba(0, 0, 0, 0.7));
   }
   p {
     font-size: 22px;
@@ -196,10 +195,9 @@ a:focus {
 /* Header Section */
 
 .intro {
+  @include background-padding(0,url(../img/intro-bg.jpg) no-repeat center center);
   display: table;
   width: 100%;
-  padding: 0;
-  background: url(../img/intro-bg.jpg) no-repeat center center;
   background-color: #e5e5e5;
   -webkit-background-size: cover;
   -moz-background-size: cover;
@@ -355,8 +353,7 @@ ol.type li {
   padding: 20px 0;
   a {
     @include font-style(500,14px,#999);
-    padding: 12px 24px;
-    background: #eee;
+    @include background-padding(12px 24px,#eee);
     border: 0;
     border-radius: 0;
     text-transform: uppercase;
@@ -423,12 +420,11 @@ ol.type li {
 
 .hover-bg {
   .hover-text {
+    @include background-padding(30% 0 0 0,rgba(0, 0, 0, 0.6));
     position: absolute;
     text-align: center;
     margin: 0 auto;
     color: #fff;
-    background: rgba(0, 0, 0, 0.6);
-    padding: 30% 0 0 0;
     height: 100%;
     width: 100%;
     opacity: 0;
@@ -460,8 +456,7 @@ ol.type li {
   background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
   background-size: cover;
   .overlay {
-    padding: 120px 0 80px 0;
-    background: rgba(0, 0, 0, 0.6);
+    @include background-padding(120px 0 80px 0,rgba(0, 0, 0, 0.6));
   }
   h2, p {
     color: #fff;
@@ -514,8 +509,7 @@ ol.type li {
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 );
   /* IE6-9 */
   .overlay {
-    padding: 80px 0;
-    background: #8eb640;
+    @include background-padding(80px 0,#8eb640);
   }
   h2 {
     font-family: 'Open Sans', sans-serif;
@@ -535,8 +529,7 @@ ol.type li {
 /* Contact Section */
 
 #contact {
-  padding: 100px 0 60px 0;
-  background: #F6F6F6;
+  @include background-padding(100px 0 60px 0,#F6F6F6);
   .section-title p {
     color: #777;
   }
@@ -607,8 +600,7 @@ label {
 /* Footer Section*/
 
 #footer {
-  background: #262626;
-  padding: 50px 0 0 0;
+  @include background-padding(50px 0 0 0,#262626);
   h3 {
     @include font-style(400,18px,#8eb640);
     text-transform: uppercase;
