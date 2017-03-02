@@ -9,17 +9,17 @@ body, html {
 }
 
 h2 {
-  @include h-size(500,34px,#333);
+  @include font-style(500,34px,#333);
   margin: 0 0 20px 0;
   text-transform: uppercase;
 }
 
 h3 {
-  @include h-size(500,22px,#333);
+  @include font-style(500,22px,#333);
 }
 
 h4 {
-  @include h-size(400,24px,#333);
+  @include font-style(400,24px,#333);
   text-transform: uppercase;
 }
 
@@ -117,12 +117,12 @@ a:focus {
     border-color: rgba(231, 231, 231, 0);
   }
   a.navbar-brand {
-    @include h-size(700,36px,#8eb640);
+    @include font-style(700,36px,#8eb640);
     font-family: 'Dancing Script', cursive;
     letter-spacing: 1px;
   }
   &.navbar-default .navbar-nav > li > a {
-    @include h-size(500,15px,#ddd);
+    @include font-style(500,15px,#ddd);
     text-transform: uppercase;
     padding: 5px 0;
     border: 2px solid transparent;
@@ -180,7 +180,7 @@ a:focus {
 }
 
 .btn-custom {
-  @include h-size(500,16px,#fff);
+  @include font-style(500,16px,#fff);
   text-transform: uppercase;
   background-color: #72a411;
   border: 0;
@@ -212,7 +212,7 @@ a:focus {
     background: rgba(0, 0, 0, 0.4);
   }
   h1 {
-    @include h-size(700,10em,#fff);
+    @include font-style(700,10em,#fff);
     font-family: 'Dancing Script', cursive;
     margin-top: 0;
     margin-bottom: 10px;
@@ -222,7 +222,7 @@ a:focus {
     font-weight: 600;
   }
   p {
-    @include h-size(300,32px,#fff);
+    @include font-style(300,32px,#fff);
     margin-top: 10px;
     margin-bottom: 40px;
   }
@@ -290,7 +290,7 @@ header .intro-text {
     margin: 0 20px 80px;
   }
   .menu-section-title {
-    @include h-size(500,26px,#444);
+    @include font-style(500,26px,#444);
     display: block;
     margin: 20px 0;
     text-align: center;
@@ -300,7 +300,7 @@ header .intro-text {
     font-size: 18px;
   }
   .menu-item-name {
-    @include h-size(600,17px,#555);
+    @include font-style(600,17px,#555);
     border-bottom: 2px dotted rgb(213, 213, 213);
   }
   .menu-item-description {
@@ -360,7 +360,7 @@ ol.type li {
   margin: 0 10px;
   padding: 20px 0;
   a {
-    @include h-size(500,14px,#999);
+    @include font-style(500,14px,#999);
     padding: 12px 24px;
     background: #eee;
     border: 0;
@@ -447,7 +447,7 @@ ol.type li {
     opacity: 0;
     transition: all 0.5s;
     > h4 {
-      @include h-size(500,17px,#fff);
+      @include font-style(500,17px,#fff);
       opacity: 0;
       -webkit-transform: translateY(100%);
       transform: translateY(100%);
@@ -483,7 +483,7 @@ ol.type li {
     background: #fff;
   }
   h3 {
-    @include h-size(400,20px,#fff);
+    @include font-style(400,20px,#fff);
     margin: 5px 0;
   }
   img {
@@ -547,7 +547,7 @@ ol.type li {
     background: #fff;
   }
   h3 {
-    @include h-size(500,20px,#fff);
+    @include font-style(500,20px,#fff);
     margin: 5px 0;
   }
 }
@@ -564,7 +564,7 @@ ol.type li {
     padding: 0;
   }
   h3 {
-    @include h-size(400,20px,#555);
+    @include font-style(400,20px,#555);
     text-transform: uppercase;
   }
   .text-danger {
@@ -630,7 +630,7 @@ label {
   background: #262626;
   padding: 50px 0 0 0;
   h3 {
-    @include h-size(400,18px,#8eb640);
+    @include font-style(400,18px,#8eb640);
     text-transform: uppercase;
     margin-bottom: 20px;
   }
