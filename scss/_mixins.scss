@@ -33,8 +33,15 @@
 }
 
 @mixin background-padding($padding, $background) {
-	padding: $padding;
-	background: $background;
+    background: $background;
+    @if(unit($paddin)=='px'){
+        padding: $padding;
+        @return background-padding($padding, $background);
+    }@else{
+         @warn 'Se espearban px en las medidas, porfavor, modifiquelo.';
+    }
+	
+	
 }
 
 @mixin letter-padding($padding, $letter-spacing) {
