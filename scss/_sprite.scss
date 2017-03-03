@@ -1,0 +1,5 @@
+$icons : sprite_map("icons/*.png");
+
+.compass{
+	background: sprite($icons, contact);
+}
