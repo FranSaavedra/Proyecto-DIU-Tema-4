@@ -1,5 +1,5 @@
-$icons : sprite_map("icons/*.png");
+$icons : sprite_map("icons/*.png", $spacing:5px, $layout:horizontal);
 
 .compass{
-	background: sprite($icons, contact);
+	background: sprite($icons, "01");
 }

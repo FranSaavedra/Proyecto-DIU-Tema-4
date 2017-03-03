@@ -520,7 +520,7 @@ ol.type li a.active, ol.type li a:hover {
   margin: 5px 0;
 }
 #team img {
-  width: 280px;
+  width: 1000px;
 }
 #team .thumbnail {
   background: transparent;
@@ -711,5 +711,5 @@ label {
 }
 
 .compass {
-  background: url('../img/icons-sd4b0bd4472.png') 0 0;
+  background: url('../img/icons-s9e794262a7.png') 0 0;
 }
