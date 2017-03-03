@@ -1,7 +1,12 @@
 @mixin font-style($weight, $size, $color) {
-	font-weight: $weight;
-  	font-size: $size;
   	color: $color;
+    @if(unit($weigth)=='px' and unit($size)=='px'){
+        font-weight: $weight;
+        font-size: $size;
+        @return font-style($weight,$size,$color);
+    }@else{
+         @warn 'Se espearban px en las medidas, porfavor, modifiquelo.';
+    }
 }
 
 @mixin img-format($posicion, $repetido, $estado){
