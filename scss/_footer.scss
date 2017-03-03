@@ -1,9 +1,9 @@
 /* Footer Section*/
 
 #footer {
-  @include background-padding(50px 0 0 0,#262626);
+  @include background-padding($footer-padding,$footer-background);
   h3 {
-    @include font-style(400,18px,#8eb640);
+    @include font-style($footer-h3-font-style-weight,$footer-h3-font-style-size,$footer-h3-font-style-color);
     text-transform: uppercase;
     margin-bottom: 20px;
   }

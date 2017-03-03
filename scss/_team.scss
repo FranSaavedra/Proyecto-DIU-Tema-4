@@ -5,7 +5,7 @@
   background: #444 url(../img/team-bg.jpg) center top no-repeat fixed;
   background-size: cover;
   .overlay {
-    @include background-padding(120px 0 80px 0,rgba(0, 0, 0, 0.6));
+    @include background-padding($team-overlay-padding,$team-overlay-background);
   }
   h2, p {
     color: #fff;
@@ -14,7 +14,7 @@
     background: #fff;
   }
   h3 {
-    @include font-style(400,20px,#fff);
+    @include font-style($team-h3-font-style-weight,$team-h3-font-style-size,$team-h3-font-style-color);
     margin: 5px 0;
   }
   img {
@@ -27,7 +27,7 @@
       display: inline-block;
       position: relative;
       &:before {
-        @include position('',block,absolute,8px,8px,8px,8px,1px solid rgba(255, 255, 255, 0.2));
+        @include position($team-img-position-content,$team-img-position-display,$team-img-position-position,$team-img-position-top,$team-img-position-right,$team-img-position-bottom,$team-img-position-left,$team-img-position-border);
       }
     }
     .caption {

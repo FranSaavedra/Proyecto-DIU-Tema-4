@@ -1,7 +1,7 @@
 /* Contact Section */
 
 #contact {
-  @include background-padding(100px 0 60px 0,#F6F6F6);
+  @include background-padding($contact-padding,$contact-background);
   .section-title p {
     color: #777;
   }
@@ -9,7 +9,7 @@
     padding: 0;
   }
   h3 {
-    @include font-style(400,20px,#555);
+    @include font-style($contact-h3-font-style-weight,$contact-h3-font-style-size,$contact-h3-font-style-color);
     text-transform: uppercase;
   }
   .text-danger {

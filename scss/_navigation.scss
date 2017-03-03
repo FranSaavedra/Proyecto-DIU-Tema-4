@@ -8,14 +8,14 @@
     border-color: rgba(231, 231, 231, 0);
   }
   a.navbar-brand {
-    @include font-style(700,36px,#8eb640);
+    @include font-style($navigation-navbar-brand-font-style-weight,$navigation-navbar-brand-font-style-size,$navigation-navbar-brand-font-style-color);
     font-family: 'Dancing Script', cursive;
     letter-spacing: 1px;
   }
   &.navbar-default .navbar-nav > li > a {
-    @include font-style(500,15px,#ddd);
-    @include margin-default(10px 15px 0 15px,2px solid transparent);
-    @include letter-padding(5px 0,0.5px);
+    @include font-style($navigation-navbar-default-font-style-weight,$navigation-navbar-default-font-style-size,$navigation-navbar-default-font-style-color);
+    @include margin-default($navigation-navbar-default-margin-default-margin,$navigation-navbar-default-margin-default-border);
+    @include letter-padding($navigation-navbar-default-letter-padding,$navigation-navbar-default-letter-spacing);
     text-transform: uppercase;
     &:hover {
       color: #8eb640;
@@ -55,7 +55,7 @@
 .section-title {
   margin-bottom: 70px;
   .overlay {
-    @include background-padding(80px 0,rgba(0, 0, 0, 0.7));
+    @include background-padding($navigation-overlay-padding,$navigation-overlay-background);
   }
   p {
     font-size: 22px;
@@ -68,9 +68,9 @@
 }
 
 .btn-custom {
-  @include font-style(500,16px,#fff);
-  @include margin-default(0,0);
-  @include letter-padding(14px 20px,0.5px);
+  @include font-style($navigation-btn-custom-font-style-weight,$navigation-btn-custom-font-style-size,$navigation-btn-custom-font-style-color);
+  @include margin-default($navigation-btn-custom-margin-default-margin,$navigation-btn-custom-margin-default-border);
+  @include letter-padding($navigation-btn-custom-letter-padding,$navigation-btn-custom-letter-spacing);
   text-transform: uppercase;
   background-color: #72a411;
   border-radius: 0;

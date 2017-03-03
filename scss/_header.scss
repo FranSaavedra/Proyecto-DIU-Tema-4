@@ -1,7 +1,7 @@
 /* Header Section */
 
 .intro {
-  @include background-padding(0,url(../img/intro-bg.jpg) no-repeat center center);
+  @include background-padding($header-intro-padding,$header-intro-background);
   display: table;
   width: 100%;
   background-color: #e5e5e5;
@@ -13,7 +13,7 @@
     background: rgba(0, 0, 0, 0.4);
   }
   h1 {
-    @include font-style(700,10em,#fff);
+    @include font-style($header-h1-font-style-weight,$header-h1-font-style-size,$header-h1-font-style-color);
     font-family: 'Dancing Script', cursive;
     margin-top: 0;
     margin-bottom: 10px;
@@ -23,7 +23,7 @@
     font-weight: 600;
   }
   p {
-    @include font-style(300,32px,#fff);
+    @include font-style($header-p-font-style-weight,$header-p-font-style-size,$header-p-font-style-color);
     margin-top: 10px;
     margin-bottom: 40px;
   }

@@ -12,7 +12,7 @@
     display: inline-block;
     position: relative;
     &:before {
-      @include position('',block,absolute,8px,8px,8px,8px,1px solid rgba(255, 255, 255, 0.5));
+      @include position($about-position-content,$about-position-display,$about-position-position,$about-position-top,$about-position-right,$about-position-bottom,$about-position-left,$about-position-border);
     }
   }
   p {

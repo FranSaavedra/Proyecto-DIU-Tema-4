@@ -1,0 +1,154 @@
+$about-position-content: '';
+$about-position-display: block;
+$about-position-position: absolute;
+$about-position-top: 8px;
+$about-position-right: 8px;
+$about-position-bottom: 8px;
+$about-position-left: 8px;
+$about-position-border: 1px solid rgba(255, 255, 255, 0.5);
+
+
+$body-h2-font-style-weight: 500;
+$body-h2-font-style-size: 34px;
+$body-h2-font-style-color: #333;
+
+$body-h3-font-style-weight: 500;
+$body-h3-font-style-size: 22px;
+$body-h3-font-style-color: #333;
+
+$body-h4-font-style-weight: 400;
+$body-h4-font-style-size: 24px;
+$body-h4-font-style-color: #333;
+
+$body-hr-margin-default-margin: 0;
+$body-hr-margin-default-border: 0;
+
+
+$contact-padding: 100px 0 60px 0;
+$contact-background: #F6F6F6;
+
+$contact-h3-font-style-weight: 400;
+$contact-h3-font-style-size: 20px;
+$contact-h3-font-style-color: #555;
+
+
+$footer-padding: 50px 0 0 0;
+$footer-background: #262626;
+
+$footer-h3-font-style-weight: 400;
+$footer-h3-font-style-size: 18px;
+$footer-h3-font-style-color: #8eb640;
+
+
+$header-intro-padding: 0;
+$header-intro-background: url(../img/intro-bg.jpg) no-repeat center center;
+
+$header-h1-font-style-weight: 700;
+$header-h1-font-style-size: 10em;
+$header-h1-font-style-color: #fff;
+
+$header-p-font-style-weight: 300;
+$header-p-font-style-size: 32px;
+$header-p-font-style-color: #fff;
+
+
+$menu-section-title-img-format-background-position: 'center center';
+$menu-section-title-img-format-background-attachment: 'no-repeat';
+$menu-section-title-img-format-background-repeat: 'fixed';
+
+$menu-menu-section-title-font-style-weight: 500;
+$menu-menu-section-title-font-style-size: 26px;
+$menu-menu-section-title-font-style-color: #444;
+
+$menu-item-name-font-style-weight: 600;
+$menu-item-name-font-style-size: 17px;
+$menu-item-name-font-style-color: #555;
+
+
+$navigation-navbar-brand-font-style-weight: 700;
+$navigation-navbar-brand-font-style-size: 36px;
+$navigation-navbar-brand-font-style-color: #8eb640;
+
+$navigation-navbar-default-font-style-weight: 500;
+$navigation-navbar-default-font-style-size: 15px;
+$navigation-navbar-default-font-style-color: #ddd;
+
+$navigation-navbar-default-margin-default-margin: 10px 15px 0 15px;
+$navigation-navbar-default-margin-default-border: 2px solid transparent;
+
+$navigation-navbar-default-letter-padding: 5px 0;
+$navigation-navbar-default-letter-spacing: 0.5px;
+
+$navigation-overlay-padding: 80px 0;
+$navigation-overlay-background: rgba(0, 0, 0, 0.7);
+
+$navigation-btn-custom-font-style-weight: 500;
+$navigation-btn-custom-font-style-size: 15px;
+$navigation-btn-custom-font-style-color: #ddd;
+
+$navigation-btn-custom-margin-default-margin: 0;
+$navigation-btn-custom-margin-default-border: 0;
+
+$navigation-btn-custom-letter-padding: 14px 20px;
+$navigation-btn-custom-letter-spacing: 0.5px;
+
+
+$portfolio-cambia-fondo-reservas-img-format-background-position: 'center center';
+$portfolio-cambia-fondo-reservas-img-format-background-attachment: 'no-repeat';
+$portfolio-cambia-fondo-reservas-img-format-background-repeat: 'fixed';
+
+$portfolio-cambia-fondo-galeria-img-format-background-position: 'center center';
+$portfolio-cambia-fondo-galeria-img-format-background-attachment: 'no-repeat';
+$portfolio-cambia-fondo-galeria-img-format-background-repeat: 'fixed';
+
+$portfolio-cambia-fondo-contacto-img-format-background-position: 'center center';
+$portfolio-cambia-fondo-contacto-img-format-background-attachment: 'no-repeat';
+$portfolio-cambia-fondo-contacto-img-format-background-repeat: 'fixed';
+
+$portfolio-a-font-style-weight: 500;
+$portfolio-a-font-style-size: 14px;
+$portfolio-a-font-style-color: #999;
+
+$portfolio-a-padding: 12px 24px;
+$portfolio-a-background: #eee;
+
+$portfolio-item-position-content: '';
+$portfolio-item-position-display: block;
+$portfolio-item-position-position: absolute;
+$portfolio-item-position-top: 6px;
+$portfolio-item-position-right: 6px;
+$portfolio-item-position-bottom: 6px;
+$portfolio-item-position-left: 6px;
+$portfolio-item-position-border: 1px solid rgba(255, 255, 255, 0.6);
+
+$portfolio-hover-text-padding: 30% 0 0 0;
+$portfolio-hover-text-background: rgba(0, 0, 0, 0.6);
+
+$portfolio-hover-text-h4-font-style-weight: 500;
+$portfolio-hover-text-h4-font-style-size: 17px;
+$portfolio-hover-text-h4-font-style-color: #fff;
+
+
+$reservations-overlay-padding: 80px 0;
+$reservations-overlay-background: #8eb640;
+
+$reservations-h3-font-style-weight: 500;
+$reservations-h3-font-style-size: 20px;
+$reservations-h3-font-style-color: #fff;
+
+
+$team-overlay-padding: 120px 0 80px 0;
+$team-overlay-background: rgba(0, 0, 0, 0.6);
+
+$team-h3-font-style-weight: 400;
+$team-h3-font-style-size: 20px;
+$team-h3-font-style-color: #fff;
+
+$team-img-position-content: '';
+$team-img-position-display: block;
+$team-img-position-position: absolute;
+$team-img-position-top: 8px;
+$team-img-position-right: 8px;
+$team-img-position-bottom: 8px;
+$team-img-position-left: 8px;
+$team-img-position-border: 1px solid rgba(255, 255, 255, 0.2);

@@ -3,7 +3,7 @@
 #restaurant-menu {
   padding: 0 0 60px 0;
   .section-title {
-      @include img-format('center center','no-repeat','fixed');
+      @include img-format($menu-section-title-img-format-background-position,$menu-section-title-img-format-background-attachment,$menu-section-title-img-format-background-repeat);
     background-image: url(../img/menu-bg.jpg);
     background-size: cover;
     h2 {
@@ -25,7 +25,7 @@
     margin: 0 20px 80px;
   }
   .menu-section-title {
-    @include font-style(500,26px,#444);
+    @include font-style($menu-menu-section-title-font-style-weight,$menu-menu-section-title-font-style-size,$menu-menu-section-title-font-style-color);
     display: block;
     margin: 20px 0;
     text-align: center;
@@ -35,7 +35,7 @@
     font-size: 18px;
   }
   .menu-item-name {
-    @include font-style(600,17px,#555);
+    @include font-style($menu-item-name-font-style-weight,$menu-item-name-font-style-size,$menu-item-name-font-style-color);
     border-bottom: 2px dotted rgb(213, 213, 213);
   }
   .menu-item-description {

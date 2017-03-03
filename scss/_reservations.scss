@@ -15,7 +15,7 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8eb640', endColorstr='#779936', GradientType=0 );
   /* IE6-9 */
   .overlay {
-    @include background-padding(80px 0,#8eb640);
+    @include background-padding($reservations-overlay-padding,$reservations-overlay-background);
   }
   h2 {
     font-family: 'Open Sans', sans-serif;
@@ -27,7 +27,7 @@
     background: #fff;
   }
   h3 {
-    @include font-style(500,20px,#fff);
+    @include font-style($reservations-h3-font-style-weight,$reservations-h3-font-style-size,$reservations-h3-font-style-color);
     margin: 5px 0;
   }
 }
