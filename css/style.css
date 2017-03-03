@@ -710,6 +710,21 @@ label {
   color: #333;
 }
 
-.compass {
-  background: url('../img/icons-s9e794262a7.png') 0 0;
+.compass-image {
+  background: url('../img/icons-s9a7861d69e.png') 0 0;
+  height: 400px;
+  width: 850px;
+}
+
+@media (max-width: 620px) {
+  .compass-image {
+    height: 400px;
+    max-width: 270px;
+  }
+}
+@media (max-width: 1000px) {
+  .compass-image {
+    height: 400px;
+    width: 570px;
+  }
 }

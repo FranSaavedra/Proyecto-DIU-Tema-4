@@ -1,5 +1,21 @@
 $icons : sprite_map("icons/*.png", $spacing:5px, $layout:horizontal);
 
-.compass{
-	background: sprite($icons, "01");
+.compass-image{
+	background: sprite($icons, chef1);
+	height: 400px;
+	width: 850px;
+}
+
+@media (max-width: 620px) { 
+	.compass-image{
+		height: 400px;
+		max-width: 270px;
+	}
+}
+
+@media (max-width: 1000px) { 
+	.compass-image{
+		height: 400px;
+		width: 570px;
+	}
 }
