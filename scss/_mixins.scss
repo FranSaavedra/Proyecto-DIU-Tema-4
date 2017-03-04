@@ -1,11 +1,11 @@
 @mixin font-style($weight, $size, $color) {
   	color: $color;
-    @if(unit($weight)=='px' and unit($size)=='px'){
+    @if unit($weight) == "px" {
         font-weight: $weight;
         font-size: $size;
-        //@return font-style($weight,$size,$color);
-    }@else{
-         @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
+    }
+    @else{
+        @warn "Formato de los atributos debe de ser px";
     }
 }
 
@@ -33,18 +33,13 @@
 }
 
 @mixin background-padding($padding, $background) {
-    /*background: $background;
-    @if(unit($padding)=='px'){
-        padding: $padding;
-        @return background-padding($padding, $background);
-    }@else{
-         @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-    }*/
-	
-	
+    background: $background;
+    padding: $padding;
 }
 
 @mixin letter-padding($padding, $letter-spacing) {
 	padding: $padding;
 	letter-spacing: $letter-spacing;
 }
+
+
