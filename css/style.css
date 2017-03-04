@@ -10,16 +10,22 @@ body, html {
 
 h2 {
   color: #333;
+  font-weight: 500;
+  font-size: 34px;
   margin: 0 0 20px 0;
   text-transform: uppercase;
 }
 
 h3 {
   color: #333;
+  font-weight: 500;
+  font-size: 22px;
 }
 
 h4 {
   color: #333;
+  font-weight: 400;
+  font-size: 24px;
   text-transform: uppercase;
 }
 
@@ -118,11 +124,15 @@ a:focus {
 }
 #menu a.navbar-brand {
   color: #8eb640;
+  font-weight: 700;
+  font-size: 36px;
   font-family: 'Dancing Script', cursive;
   letter-spacing: 1px;
 }
 #menu.navbar-default .navbar-nav > li > a {
   color: #ddd;
+  font-weight: 500;
+  font-size: 15px;
   margin: 10px 15px 0 15px;
   border: 2px solid transparent;
   padding: 5px 0;
@@ -164,13 +174,8 @@ a:focus {
   margin-bottom: 70px;
 }
 .section-title .overlay {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: rgba(0, 0, 0, 0.7);
+  padding: 80px 0;
 }
 .section-title p {
   font-size: 22px;
@@ -183,6 +188,8 @@ a:focus {
 
 .btn-custom {
   color: #ddd;
+  font-weight: 500;
+  font-size: 15px;
   margin: 0;
   border: 0;
   padding: 14px 20px;
@@ -200,13 +207,8 @@ a:focus {
 
 /* Header Section */
 .intro {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: url(../img/intro-bg.jpg) no-repeat center center;
+  padding: 0;
   display: table;
   width: 100%;
   background-color: #e5e5e5;
@@ -220,6 +222,8 @@ a:focus {
 }
 .intro h1 {
   color: #fff;
+  font-weight: 700;
+  font-size: 10em;
   font-family: 'Dancing Script', cursive;
   margin-top: 0;
   margin-bottom: 10px;
@@ -230,6 +234,8 @@ a:focus {
 }
 .intro p {
   color: #fff;
+  font-weight: 300;
+  font-size: 32px;
   margin-top: 10px;
   margin-bottom: 40px;
 }
@@ -300,6 +306,8 @@ header .intro-text {
 }
 #restaurant-menu .menu-section-title {
   color: #444;
+  font-weight: 500;
+  font-size: 26px;
   display: block;
   margin: 20px 0;
   text-align: center;
@@ -310,6 +318,8 @@ header .intro-text {
 }
 #restaurant-menu .menu-item-name {
   color: #555;
+  font-weight: 600;
+  font-size: 17px;
   border-bottom: 2px dotted #d5d5d5;
 }
 #restaurant-menu .menu-item-description {
@@ -381,13 +391,10 @@ ol.type li {
 }
 ol.type li a {
   color: #999;
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  font-weight: 500;
+  font-size: 14px;
+  background: #eee;
+  padding: 12px 24px;
   border: 0;
   border-radius: 0;
   text-transform: uppercase;
@@ -459,13 +466,8 @@ ol.type li a.active, ol.type li a:hover {
 }
 
 .hover-bg .hover-text {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: rgba(0, 0, 0, 0.6);
+  padding: 30% 0 0 0;
   position: absolute;
   text-align: center;
   margin: 0 auto;
@@ -477,6 +479,8 @@ ol.type li a.active, ol.type li a:hover {
 }
 .hover-bg .hover-text > h4 {
   color: #fff;
+  font-weight: 500;
+  font-size: 17px;
   opacity: 0;
   -webkit-transform: translateY(100%);
   transform: translateY(100%);
@@ -500,13 +504,8 @@ ol.type li a.active, ol.type li a:hover {
   background-size: cover;
 }
 #team .overlay {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: rgba(0, 0, 0, 0.6);
+  padding: 120px 0 80px 0;
 }
 #team h2, #team p {
   color: #fff;
@@ -516,6 +515,8 @@ ol.type li a.active, ol.type li a:hover {
 }
 #team h3 {
   color: #fff;
+  font-weight: 400;
+  font-size: 20px;
   margin: 5px 0;
 }
 #team img {
@@ -565,13 +566,8 @@ ol.type li a.active, ol.type li a:hover {
   /* IE6-9 */
 }
 #call-reservation .overlay {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: #8eb640;
+  padding: 80px 0;
 }
 #call-reservation h2 {
   font-family: 'Open Sans', sans-serif;
@@ -584,18 +580,15 @@ ol.type li a.active, ol.type li a:hover {
 }
 #call-reservation h3 {
   color: #fff;
+  font-weight: 500;
+  font-size: 20px;
   margin: 5px 0;
 }
 
 /* Contact Section */
 #contact {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: #F6F6F6;
+  padding: 100px 0 60px 0;
 }
 #contact .section-title p {
   color: #777;
@@ -605,6 +598,8 @@ ol.type li a.active, ol.type li a:hover {
 }
 #contact h3 {
   color: #555;
+  font-weight: 400;
+  font-size: 20px;
   text-transform: uppercase;
 }
 #contact .text-danger {
@@ -663,16 +658,13 @@ label {
 
 /* Footer Section*/
 #footer {
-  /*background: $background;
-  @if(unit($padding)=='px'){
-      padding: $padding;
-      @return background-padding($padding, $background);
-  }@else{
-       @warn 'Se esperaban px en las medidas, por favor, modifiquelo.';
-  }*/
+  background: #262626;
+  padding: 50px 0 0 0;
 }
 #footer h3 {
   color: #8eb640;
+  font-weight: 400;
+  font-size: 18px;
   text-transform: uppercase;
   margin-bottom: 20px;
 }

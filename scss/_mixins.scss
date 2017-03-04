@@ -1,11 +1,11 @@
 @mixin font-style($weight, $size, $color) {
   	color: $color;
-    @if unit($weight) == "px" {
-        font-weight: $weight;
+  	font-weight: $weight;
+    @if ((unit($size) == "px") or (unit($size) == "em")) {
         font-size: $size;
     }
     @else{
-        @warn "Formato de los atributos debe de ser px";
+        @warn "El formato del tamaño de la fuente debe de ser px o em";
     }
 }
 
