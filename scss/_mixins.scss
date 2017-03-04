@@ -9,11 +9,16 @@
     }
 }
 
-@mixin img-format($posicion, $repetido, $estado){
+@mixin img-format($posicion, $estado, $repetido){
 	background-color: #444;
-	background-position: $posicion;
-	background-attachment: $estado;
-	background-repeat: $repetido;
+    @if ($posicion == "center center" and $repetido == "no-repeat" and $estado =="fixed"){
+	    background-position: $posicion;
+	    background-attachment: $estado;
+	    background-repeat: $repetido;
+    }
+    @else{
+        @warn "Por favor, centre la imagen:center, no permita que se repita:no-repeat y fijela:fixed, o podria provocar un desajuste en la interfaz."
+    }
 }
 
 @mixin margin-default($margin, $border) {

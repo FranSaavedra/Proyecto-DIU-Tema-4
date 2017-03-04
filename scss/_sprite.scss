@@ -1,4 +1,4 @@
-$icons : sprite_map("icons/*.png",$spacing:5px,$layout:horizontal);
+$icons : sprite_map("icons/*.png", $spacing:5px, $layout:horizontal);
 
 .compass-image{
 	background: sprite($icons, chef1);
